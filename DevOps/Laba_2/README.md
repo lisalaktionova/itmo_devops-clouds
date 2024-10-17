@@ -8,7 +8,7 @@
 
 ## "Плохой" Dockerfile:
 
-![Image alt]([bad practices.png](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_2/bad%20practices.png))
+![Image alt](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_2/bad%20practices.png)
 
 1. **Использование `latest` тега**
    Это небезопасно, так как версия образа может обновиться и сломать совместимость окружения.
