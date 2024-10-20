@@ -34,7 +34,9 @@ Docker compose уже установлен:)
 ## "Хороший" Docker compose файл:
 В хорошем Dockercompose файле были исправлены все плохие практики.
 
-![Image alt]()
+![Image alt](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_2*/good.png)
+
+Как были исправлены плохие практики:
 
 1. **Использование "latest" для версий образов**
 
