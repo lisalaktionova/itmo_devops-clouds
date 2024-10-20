@@ -15,7 +15,7 @@
 
 Сначала создадим воркфлоу `bad.yml`, который будет автоматизируют процесс сборки, тестирования и развертывания кода при изменениях в репозитории.
 
-![Image alt](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_2/bad.png)
+![Image alt](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_3/bad.png)
 
 Какие 'bad practices' есть в этом CI/CD файл:
 
