@@ -1,0 +1,24 @@
+name: Bad CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v1  # устаревшая версия action
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update  # использование sudo
+          sudo apt-get install -y nodejs npm
+
+      - name: Run tests
+        run: |
+          npm install
+          npm test || true  # игнорирование ошибок тестов
