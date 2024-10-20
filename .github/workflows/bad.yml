@@ -1,4 +1,4 @@
-name: Bad CI/CD Pipeline
+name: bad
 
 on:
   push:
