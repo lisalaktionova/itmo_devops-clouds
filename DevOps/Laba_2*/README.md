@@ -15,7 +15,7 @@ Docker compose уже установлен:)
 
 С помощью команды nano создаем и открываем файл bad Dockerfile в текстовом редакторе терминала. Далее пишим "плохой" Dockerfile, показанный на картинке ниже.
 
-![Image alt]()
+![Image alt](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_2*/bad.png)
 
 Какие 'bad practices' есть в этом Docker comspose:
 1. **Использование "latest" для версий образов**
