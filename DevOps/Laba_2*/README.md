@@ -13,7 +13,7 @@
 
 Docker compose уже установлен:)
 
-С помощью команды nano создаем и открываем файл bad Dockerfile в текстовом редакторе терминала. Далее пишим "плохой" Dockerfile, показанный на картинке ниже.
+С помощью команды nano создаем и открываем файл bad Dockerfile в текстовом редакторе терминала. Далее пишим "плохой" Dockerfile, который поднимает два сервиса — Nginx и MySQL.
 
 ![Image alt](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_2*/bad.png)
 
