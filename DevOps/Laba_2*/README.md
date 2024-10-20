@@ -9,8 +9,10 @@
 
 ## "Плохой" Docker compose файл:
 Сначала проверим, установлен ли Docker Compose с помощью команды `docker-compose --version`.
-![Image alt]()
+![Image alt](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_2*/check%20docker%20compose.png)
+
 Docker compose уже установлен:)
+
 С помощью команды nano создаем и открываем файл bad Dockerfile в текстовом редакторе терминала. Далее пишим "плохой" Dockerfile, показанный на картинке ниже.
 
 ![Image alt]()
