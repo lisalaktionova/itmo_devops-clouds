@@ -38,7 +38,7 @@
 ## 'Хороший' CI/CD файл
 Создадим `good.yml`:
 
-![Image alt](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_3/good.png)
+![Image alt](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_3/good(2).png)
 
 Как были исправлены 'bad practices' в CI/CD файл:
 
