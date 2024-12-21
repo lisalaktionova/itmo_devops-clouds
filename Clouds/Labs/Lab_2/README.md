@@ -73,4 +73,4 @@
 Сервис, с помощью которого можно развертывать и управлять виртуальными машинами в облаке
 
 Результат ([таблица](https://drive.google.com/file/d/1Ju_9MHKxCybr6fUGOxWR-ftbzUSaeDE2/view?usp=drive_link)):
-![Итог](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/Clouds/Labs/Lab_1/2.png)
+![Итог](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/Clouds/Labs/Lab_2/2.png)
