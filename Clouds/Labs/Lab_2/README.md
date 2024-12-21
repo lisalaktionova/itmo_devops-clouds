@@ -24,4 +24,42 @@
 
 Изначально дан слепок данных биллинга
 
-![Исходные данные](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/Clouds/Labs/Lab_1/1.png)
+![Исходные данные](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/Clouds/Labs/Lab_2/1.png)
+
+### Описание сервисов
+
+#### 1. Azure Analysis Services
+
+
+#### 2. Azure Data Factory
+
+
+#### 3. Azure Database
+
+
+#### 4. Azure Redis Cache
+
+
+#### 5. Azure CDN
+
+
+#### 6. Azure Data Box
+
+
+#### 7. Azure Key Vault
+
+
+#### 8. Azure Scheduler
+
+
+#### 9. Azure Sentinel
+
+
+#### 10. Azure Batch
+
+
+#### 11. Azure Virtual Machines
+
+
+Результат ([таблица](https://drive.google.com/file/d/1Ju_9MHKxCybr6fUGOxWR-ftbzUSaeDE2/view?usp=drive_link)):
+![Итог](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/Clouds/Labs/Lab_1/2.png)
