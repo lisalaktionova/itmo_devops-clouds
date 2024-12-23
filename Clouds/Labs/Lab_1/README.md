@@ -53,7 +53,7 @@
 Данный сервис предлагает качественные решения для управления трафиком, связанного с доменными именами, направляя его к различным приложениям и внутренним ресурсам. С помощью удобных и надежных инструментов для регистрации и администрирования доменов, пользователи получают возможность значительно повысить уровень контроля и надежности в управлении своим доменным пространством.
 
 Результат ([таблица](https://drive.google.com/file/d/1Ju_9MHKxCybr6fUGOxWR-ftbzUSaeDE2/view?usp=drive_link)):
-![Итог](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/Clouds/Labs/Lab_1/2.png)
+![Итог](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/Clouds/Labs/Lab_1/3.png)
 
 ## Вывод
 
