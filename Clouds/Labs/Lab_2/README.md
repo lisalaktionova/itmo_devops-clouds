@@ -74,3 +74,7 @@
 
 Результат ([таблица](https://drive.google.com/file/d/1vxXnoHGCprxDeb4CZXeKhywHHImehOOP/view?usp=drive_link)):
 ![Итог](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/Clouds/Labs/Lab_2/2.png)
+
+## Вывод
+
+В результате выполнения лабораторной работы было осуществлено знакомство с облачными сервисами Azure, а также проведн анализ биллинга.
