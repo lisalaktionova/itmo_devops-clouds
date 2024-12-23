@@ -54,3 +54,7 @@
 
 Результат ([таблица](https://drive.google.com/file/d/1Ju_9MHKxCybr6fUGOxWR-ftbzUSaeDE2/view?usp=drive_link)):
 ![Итог](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/Clouds/Labs/Lab_1/2.png)
+
+## Вывод
+
+В результате выполнения лабораторной работы было осуществеленно знакомство с облачными сервисами Amazon, изучена их документация и заполнена таблица, позволяющая структурировать данные о сервисах.
