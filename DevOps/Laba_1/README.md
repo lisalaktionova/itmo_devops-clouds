@@ -28,4 +28,4 @@ sudo systemctl start nginx
 ```bash
 sudo systemctl status nginx
 ```
-![](https://github.com/paltovkletku/babaiki_devops_clouds/blob/main/DevOps/Lab1/media/welcome.jpg)
+![](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/start_nginx.png)
