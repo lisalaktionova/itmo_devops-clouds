@@ -14,7 +14,7 @@
 ```bash
 sudo apt-get update
 ```
-![Обновление пакетов](https://github.com/paltovkletku/babaiki_devops_clouds/blob/main/DevOps/Lab1/media/apt-get.jpg)
+![Обновление пакетов](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/update.png)
 
 ```bash
 sudo apt install nginx
