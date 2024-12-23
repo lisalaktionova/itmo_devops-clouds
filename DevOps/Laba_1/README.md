@@ -19,7 +19,13 @@ sudo apt-get update
 ```bash
 sudo apt install nginx
 ```
-![Установка Nginx](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/install_nginx.png)
+![Установка nginx](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/install_nginx.png)
 
-Проверим, работает ли Nginx, введя ip-адрес сервера в строку браузера:
-![Рабочий nginx через ip](https://github.com/paltovkletku/babaiki_devops_clouds/blob/main/DevOps/Lab1/media/welcome.jpg)
+Запустим nginx и проверим его статус:
+```bash
+sudo systemctl start nginx
+```
+```bash
+sudo systemctl status nginx
+```
+![](https://github.com/paltovkletku/babaiki_devops_clouds/blob/main/DevOps/Lab1/media/welcome.jpg)
