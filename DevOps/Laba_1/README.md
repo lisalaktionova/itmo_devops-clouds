@@ -35,23 +35,18 @@ sudo systemctl status nginx
 
 ![]([img/img_1.png](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/1.png))
 
-Следующим шагом будет установка ssl и генерация самоподписанного сертификата. SSL устанавливается командой ```sudo apt install openssl```, 
+Далее установим ssl и генерацию самоподписанного сертификата. SSL устанавливается командой ```sudo apt install openssl```, 
 а сертификат генерируется с помощью ```sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/ssl/nginx.key -out /etc/nginx/ssl/nginx.crt```.
-Процесс его настройки изображен на скриншоте:
 
 ![](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/2.png)
 
-Когда мы приготовили все инструменты, настало время приступать к самой лабораторной. Будем настраивать виртуальные хосты,
-для этого пропишем ```sudo nano /etc/nginx/sites-available/proj1```, у нас откроется конфигурация виртуального хоста первого проекта,
-в ней мы должны написать следующее:
+Теперь будем настраивать виртуальные хосты, для этого пропишем ```sudo nano /etc/nginx/sites-available/proj1```, у нас откроется конфигурация виртуального хоста первого проекта, в ней мы должны написать следующее:
 
 ![](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/3.png)
 
 В ней мы указали доменное имя (server_name), перенаправление с http на https, путь к ssl сертификату, который мы подписали
 заранее, указали, где искать файлы проекта (root /var/www/proj1) и установили index.html в качестве главной страницы сайта.
-Со вторым проектом все аналогично, поэтому просто оставим его конфиг здесь:
-
-![](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/1.png)
+Со вторым проектом проделоваем всё тоже самое.
 
 После внесения этих изменений файлы нужно активировать, создав символические ссылки в директории /etc/nginx/sites-enabled/
 с помощью следующих команд:
@@ -62,7 +57,7 @@ sudo ln -s /etc/nginx/sites-available/proj2 /etc/nginx/sites-enabled/
 ```
 
 Далее перезагрузим nginx командой ```sudo systemctl restart nginx``` для того, чтобы все изменения вступили в силу. Теперь
-нам надо узнать IP-адрес нашей машины, на которой установлен nginx. Делается это с помощью команды ```hostname -I```. Этот
+надо узнать IP-адрес нашей машины, на которой установлен nginx. Делается это с помощью команды ```hostname -I```. Этот
 IP-адрес будет использоваться для связи между нашим компьютером и виртуальными хостами Nginx.
 
 Следующим шагом нам надо будет отредактировать /etc/hosts, который используется для сопоставления доменных имен и IP-адресов
@@ -73,12 +68,11 @@ your_server_ip  proj1.example.com
 your_server_ip  proj2.example.com
 ```
 На месте ```your_server_ip``` должен быть адрес нашей виртуальной машины, а proj1.example.com и proj2.example.com будут 
-доменными именами наших проектов. Ниже прикреплен скриншот того, как выглядит наш hosts:
+доменными именами наших проектов.
 
-![](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/1.png)
+![](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/4.png)
 
-Далее переходим в браузере по адресам и , и, как видим, все работает +
-реализовано автоматическое перенаправление на https.
+Далее переходим в браузере по адресам и видим, что всё работает и реализовано автоматическое перенаправление на https.
 
 ![](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/5.png)
 
