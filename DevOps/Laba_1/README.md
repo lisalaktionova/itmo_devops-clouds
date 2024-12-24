@@ -39,13 +39,13 @@ sudo systemctl status nginx
 а сертификат генерируется с помощью ```sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/ssl/nginx.key -out /etc/nginx/ssl/nginx.crt```.
 Процесс его настройки изображен на скриншоте:
 
-![](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/1.png)
+![](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/2.png)
 
 Когда мы приготовили все инструменты, настало время приступать к самой лабораторной. Будем настраивать виртуальные хосты,
 для этого пропишем ```sudo nano /etc/nginx/sites-available/proj1```, у нас откроется конфигурация виртуального хоста первого проекта,
 в ней мы должны написать следующее:
 
-![](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/1.png)
+![](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/3.png)
 
 В ней мы указали доменное имя (server_name), перенаправление с http на https, путь к ssl сертификату, который мы подписали
 заранее, указали, где искать файлы проекта (root /var/www/proj1) и установили index.html в качестве главной страницы сайта.
@@ -80,8 +80,6 @@ your_server_ip  proj2.example.com
 Далее переходим в браузере по адресам и , и, как видим, все работает +
 реализовано автоматическое перенаправление на https.
 
-![](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/1.png)
+![](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/5.png)
 
-![](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/1.png)
-
-![]()
+![](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/6.png)
