@@ -33,25 +33,25 @@ sudo systemctl status nginx
 
 Затем создадим каталоги для проектов и настроим права доступа с помощью ```sudo chown``` и других команд, изображенных на скриншоте:
 
-![img_1.png](img/img_1.png)
+![]([img/img_1.png](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/1.png))
 
 Следующим шагом будет установка ssl и генерация самоподписанного сертификата. SSL устанавливается командой ```sudo apt install openssl```, 
 а сертификат генерируется с помощью ```sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/ssl/nginx.key -out /etc/nginx/ssl/nginx.crt```.
 Процесс его настройки изображен на скриншоте:
 
-![img_2.png](img/img_2.png)
+![](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/1.png)
 
 Когда мы приготовили все инструменты, настало время приступать к самой лабораторной. Будем настраивать виртуальные хосты,
 для этого пропишем ```sudo nano /etc/nginx/sites-available/proj1```, у нас откроется конфигурация виртуального хоста первого проекта,
 в ней мы должны написать следующее:
 
-![]()
+![](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/1.png)
 
 В ней мы указали доменное имя (server_name), перенаправление с http на https, путь к ssl сертификату, который мы подписали
 заранее, указали, где искать файлы проекта (root /var/www/proj1) и установили index.html в качестве главной страницы сайта.
 Со вторым проектом все аналогично, поэтому просто оставим его конфиг здесь:
 
-![]()
+![](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/1.png)
 
 После внесения этих изменений файлы нужно активировать, создав символические ссылки в директории /etc/nginx/sites-enabled/
 с помощью следующих команд:
@@ -75,11 +75,13 @@ your_server_ip  proj2.example.com
 На месте ```your_server_ip``` должен быть адрес нашей виртуальной машины, а proj1.example.com и proj2.example.com будут 
 доменными именами наших проектов. Ниже прикреплен скриншот того, как выглядит наш hosts:
 
-![img_3.png](img/img_3.png)
+![](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/1.png)
 
-Далее переходим в браузере по адресам [Project 1](http://proj1.example.com) и [Project 2](http://proj2.example.com), и, как видим, все работает +
+Далее переходим в браузере по адресам и , и, как видим, все работает +
 реализовано автоматическое перенаправление на https.
 
-![]()
+![](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/1.png)
+
+![](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/1.png)
 
 ![]()
