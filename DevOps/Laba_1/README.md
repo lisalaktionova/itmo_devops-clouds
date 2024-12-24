@@ -72,7 +72,7 @@ your_server_ip  proj2.example.com
 
 ![](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/4.png)
 
-Далее переходим в браузере по адресам и видим, что всё работает и реализовано автоматическое перенаправление на https.
+Далее переходим в браузер и видим, что всё работает:)
 
 ![](https://github.com/lisalaktionova/itmo_devops-clouds/blob/main/DevOps/Laba_1/5.png)
 
